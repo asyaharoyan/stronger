@@ -86,3 +86,13 @@ nav {
      margin-right: 1.5rem;
 }
 
+/* Main content */
+
+main {
+    background-color: green;
+    /* Make the element to take op the whole space*/
+    flex: 1 0 auto;
+    margin-top: 4rem;
+}
+
+/* Footer */
