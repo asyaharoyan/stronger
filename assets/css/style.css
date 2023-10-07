@@ -121,4 +121,18 @@ main {
     .nav-toggle-label {
         display: none;
     }
+
+    /* Make the logo bigger */
+#logo {
+    font-size: 250%;
+    line-height: 5rem;
+    margin: 0 1rem;
+}
+
+/* Main content */
+
+/* Push the main content underneath the header */
+main {
+    margin-top: 6rem;
+}
 }
