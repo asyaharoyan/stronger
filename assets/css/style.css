@@ -25,9 +25,9 @@ body {
 
 h1 {
     font-family: 'Martian Mono';
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: #030202;
-   /* padding: .5rem .5rem; */
+
 }
 
 /* Header */
@@ -72,6 +72,7 @@ nav {
     padding: 0 1rem;
     display: none;
 }
+
 /* Nav toggle */
 #nav-bar:checked~nav {
     display: block;
@@ -82,8 +83,7 @@ nav {
 }
 
 .nav-toggle-label {
-     font-size: 2rem;
-     margin-right: 1.5rem;
+    font-size: 2rem;
 }
 
 /* Main content */
@@ -96,3 +96,29 @@ main {
 }
 
 /* Footer */
+
+/* Media query: Tablets and larger (768px and bigger)*/
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: .5rem;
+    }
+
+    /* To put the links next to each other */
+    #menu {
+        display: flex;
+    }
+
+/* Make some space between */
+    #menu>li {
+        padding-left: 1.5rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+}
