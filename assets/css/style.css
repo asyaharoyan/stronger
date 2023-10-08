@@ -147,4 +147,19 @@ main {
     main {
         margin-top: 6rem;
     }
+
+    /* Footer*/
+    #social-media {
+        padding-left: 55%;
+    }
+}
+
+/* Media query: Tablets and larger (992px and bigger)*/
+@media screen and (min-width: 992px) {
+    /* Header */
+
+    /* Footer */
+    #social-media {
+        padding-left: 70%;
+    }
 }
