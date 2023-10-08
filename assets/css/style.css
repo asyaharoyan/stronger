@@ -27,7 +27,6 @@ h1 {
     font-family: 'Martian Mono';
     font-size: 2rem;
     color: #030202;
-
 }
 
 /* Header */
@@ -98,6 +97,17 @@ main {
 }
 
 /* Footer */
+#social-media {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+#social-media i {
+    font-size: 110%;
+    color: #1F1E1B;
+}
 
 /* Media query: Tablets and larger (768px and bigger)*/
 @media screen and (min-width: 768px) {
