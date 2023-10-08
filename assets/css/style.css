@@ -59,7 +59,7 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #030202;
+    font-weight: bold;
 }
 
 /* Styling the dropdown menu for the nav bar*/
@@ -156,7 +156,12 @@ main {
 
 /* Media query: Tablets and larger (992px and bigger)*/
 @media screen and (min-width: 992px) {
+
     /* Header */
+    /* Hover effect for bigger screens */
+    #menu a:hover {
+        border-bottom: 1px solid #030202;
+    }
 
     /* Footer */
     #social-media {
