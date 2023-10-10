@@ -103,7 +103,7 @@ nav {
 /* Main content */
 
 main {
-    background-color: green;
+    background-color: #cfbda9;
     /* Make the element to take op the whole space*/
     flex: 1 0 auto;
     margin-top: 3.4rem;
