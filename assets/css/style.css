@@ -25,8 +25,9 @@ body {
 
 h1 {
     font-family: 'Martian Mono';
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: #030202;
+
 }
 
 /* Header */
@@ -46,9 +47,20 @@ header a {
     color: inherit;
 }
 
+/* Adding logo next to the header */
+#logo-v {
+    background: url(../images/logo.webp) no-repeat center center/cover;
+    height: 1.5rem;
+    width: 1.1rem;
+    position: absolute;
+    top: .8rem;
+    left: 10.2rem;
+}
+
+/* Styling the menu items */
 #menu {
     list-style-type: none;
-    font-size: 140%;
+    font-size: 120%;
     margin: 0;
     padding: 0;
 }
@@ -56,6 +68,8 @@ header a {
 #menu>li {
     margin-bottom: .4rem;
     margin-right: .8rem;
+    text-align: right;
+    color: #030202;
 }
 
 .active {
@@ -63,7 +77,6 @@ header a {
 }
 
 /* Styling the dropdown menu for the nav bar*/
-
 nav {
     position: absolute;
     background-color: var(--background);
@@ -84,7 +97,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 /* Main content */
@@ -95,6 +108,7 @@ main {
     flex: 1 0 auto;
     margin-top: 4rem;
 }
+
 
 /* Footer */
 #social-media {
