@@ -27,7 +27,11 @@ h1 {
     font-family: 'Martian Mono', sans-serif;
     font-size: 1.6rem;
     color: #030202;
+}
 
+/* Hide the heading on the nutrition.html page */
+#diet-info>h2 {
+    display: none;
 }
 
 /* Header */
