@@ -252,6 +252,11 @@ footer {
         margin-top: 6rem;
     }
 
+    .nutrition-info {
+        top: 50rem;
+        padding: 2rem;
+    }
+
     /* Footer*/
     #social-media {
         padding-left: 55%;
