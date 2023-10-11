@@ -288,6 +288,11 @@ footer {
         padding: 2rem;
     }
 
+    /* Making the text in 2 columns to make the reading easier */
+    .nutrition-info article {
+        columns: 2 250px;
+    }
+
     /* Footer */
     #social-media {
         padding-left: 70%;
