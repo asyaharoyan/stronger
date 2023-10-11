@@ -258,6 +258,18 @@ footer {
         border-bottom: 1px solid #030202;
     }
 
+    /*Styling the hero image*/
+    #hero-img {
+        background-size: 90%;
+        background-position: 300% 30%;
+    }
+
+    /*Pushing the quote down and making it bigger for bigger screens */
+    #quote {
+        top: 28rem;
+        font-size: 180%;
+    }
+
     /* Footer */
     #social-media {
         padding-left: 70%;
