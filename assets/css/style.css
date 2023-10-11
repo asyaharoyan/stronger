@@ -177,6 +177,14 @@ main {
 }
 
 /* Footer */
+footer {
+    position: fixed;
+    height: 3rem;
+    width: 100%;
+    bottom: 0;
+    background-color: var(--background);
+}
+
 #social-media {
     padding: 1rem 2rem;
     display: flex;
