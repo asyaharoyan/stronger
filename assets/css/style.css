@@ -24,7 +24,7 @@ body {
 }
 
 h1 {
-    font-family: 'Martian Mono';
+    font-family: 'Martian Mono', sans-serif;
     font-size: 1.6rem;
     color: #030202;
 
@@ -103,6 +103,14 @@ nav {
 /* Main content */
 
 main {
+    /* Adding background image */
+    background: url("../images/background.webp") top 13% left 80%/115%;
+    background-color: #cfbda9;
+    /* Make the background less active */
+    background-blend-mode: darken;
+    background-repeat: repeat-y;
+    /*min-height: 97rem; */
+    /* Make the element to take op the whole space*/
     background-color: #cfbda9;
     /* Make the element to take op the whole space*/
     flex: 1 0 auto;
