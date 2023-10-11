@@ -127,7 +127,7 @@ main {
     height: 20rem;
     width: 100%;
     /*border-bottom: 1rem solid #fafafa;*/
-    background: url("../images/hero.png") no-repeat top 45% left -24%/cover;
+    background: url("../images/hero.webp") no-repeat top 45% left -24%/cover;
     background-size: 200%;
 }
 
@@ -143,6 +143,38 @@ main {
     top: 60%;
 }
 
+/* Designing the intro section for home page and nutrition page */
+.nutrition-info {
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 3px;
+    padding: 1rem;
+}
+
+.nutrition-info h2 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.nutrition-info h3 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.nutrition-info p {
+    font-size: .9rem;
+}
+
+.nutrition-info article {
+    padding-bottom: 3rem;
+}
+
+.sourse {
+    font-size: .8rem;
+}
+
+.sourse>a {
+    color: #030202;
+}
 
 /* Footer */
 #social-media {
