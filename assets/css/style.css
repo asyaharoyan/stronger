@@ -200,41 +200,50 @@ footer {
 /* Media query: Tablets and larger (768px and bigger)*/
 @media screen and (min-width: 768px) {
 
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        width: fit-content;
-        padding-right: .5rem;
-    }
-
-    /* To put the links next to each other */
-    #menu {
-        display: flex;
-    }
-
-    /* Make some space between */
-    #menu>li {
-        padding-left: 1.5rem;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    /* Make the logo bigger */
-    #logo {
-        font-size: 190%;
-        line-height: 5rem;
-        margin: 0 1rem;
-    }
-
-    #logo-v {
-        height: 2.7rem;
-        width: 1.7rem;
-        left: 16.5rem;
-        top: 1.5rem;
-    }
+    body {
+            font-size: 130%;
+        }
+    
+        /* Push the main content underneath the header */
+        main {
+            margin-top: 6rem;
+        }
+    
+        /* Header */
+        nav {
+            display: block;
+            position: relative;
+            width: fit-content;
+            padding-right: .5rem;
+        }
+    
+        /* To put the links next to each other */
+        #menu {
+            display: flex;
+        }
+    
+        /* Make some space between */
+        #menu>li {
+            padding-left: 1.5rem;
+        }
+    
+        .nav-toggle-label {
+            display: none;
+        }
+    
+        /* Make the logo bigger */
+        #logo {
+            font-size: 190%;
+            line-height: 5rem;
+            margin: 0 1rem;
+        }
+    
+        #logo-v {
+            height: 2.7rem;
+            width: 1.7rem;
+            left: 16.5rem;
+            top: 1.5rem;
+        }
 
     /* Main content */
     #hero-img {
