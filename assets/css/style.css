@@ -224,9 +224,16 @@ footer {
 
     /* Make the logo bigger */
     #logo {
-        font-size: 250%;
+        font-size: 190%;
         line-height: 5rem;
         margin: 0 1rem;
+    }
+
+    #logo-v {
+        height: 2.7rem;
+        width: 1.7rem;
+        left: 16.5rem;
+        top: 1.5rem;
     }
 
     /* Main content */
