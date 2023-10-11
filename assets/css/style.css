@@ -237,6 +237,15 @@ footer {
     }
 
     /* Main content */
+    #hero-img {
+        height: 43rem;
+        background-size: 180%;
+    }
+
+    /*Pushing the quote down for bigger screens */
+    #quote {
+        top: 28rem;
+    }
 
     /* Push the main content underneath the header */
     main {
@@ -253,7 +262,6 @@ footer {
 @media screen and (min-width: 992px) {
 
     /* Header */
-    /* Hover effect for bigger screens */
     #menu a:hover {
         border-bottom: 1px solid #030202;
     }
@@ -268,6 +276,11 @@ footer {
     #quote {
         top: 28rem;
         font-size: 180%;
+    }
+
+    .nutrition-info {
+        top: 50rem;
+        padding: 2rem;
     }
 
     /* Footer */
