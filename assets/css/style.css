@@ -248,6 +248,28 @@ dd {
     padding: 1rem;
 }
 
+/* Styling the table on nutrition.html page */
+#bean-beef {
+    width: 100%;
+    /* to make the table responsive */
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+th,
+td {
+    padding: .2rem;
+}
+
+th {
+    text-align: left;
+}
+
 /* Footer */
 footer {
     position: fixed;
