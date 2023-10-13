@@ -184,6 +184,19 @@ main {
     color: #030202;
 }
 
+/* Styling the gladiator section */
+#athletes h2 {
+    font-size: 150%;
+}
+
+#gladiator {
+    height: 12rem;
+    border-radius: 50%;
+    /* To align in the center */
+    display: block;
+    margin: 2rem auto;
+}
+
 /* Footer */
 footer {
     position: fixed;
