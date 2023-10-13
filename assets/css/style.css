@@ -231,6 +231,22 @@ dd {
     margin-bottom: .5rem;
 }
 
+/* Styling the movie buttom */
+#movie-buttom {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#movie-buttom a {
+    background-color: #1F1E1B;
+    color: #fafafa;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 105%;
+    border: 1px solid #696661;
+    border-radius: 5px;
+    padding: 1rem;
+}
 
 /* Footer */
 footer {
