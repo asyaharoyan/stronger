@@ -321,7 +321,7 @@ footer {
 
 /* Media query: Tablets and larger (768px and bigger)*/
 @media screen and (min-width: 768px) {
-
+/* Make the text bigger */
     body {
         font-size: 130%;
     }
@@ -388,6 +388,24 @@ footer {
         top: 50rem;
         padding: 2rem;
     }
+
+        /* Styling the nutrition.html page */
+        /* Scaleing the vegan athletes names and pictures */
+        #vegan-athletes>h3 {
+            font-size: 120%;
+        }
+    
+        dt {
+            font-size: 135%;
+        }
+    
+        .veg-athlete {
+            height: 12rem;
+        }
+    
+        #plant-protein>h2 {
+            font-size: 120%;
+        }
 
     /* Footer*/
     #social-media {
