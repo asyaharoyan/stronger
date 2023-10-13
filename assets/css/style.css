@@ -197,6 +197,41 @@ main {
     margin: 2rem auto;
 }
 
+/* Styling the list of athletes*/
+/* Rewrite the size of h2 element, make it smaller */
+#veg-header h2 {
+    font-size: 100%;
+}
+
+#veg-header h3 {
+    font-size: 90%;
+    font-weight: 500;
+    font-style: italic;
+    margin: .5rem;
+}
+
+.veg-athlete {
+    height: 7rem;
+    border-radius: 50%;
+    display: block;
+    margin: .5rem auto;
+}
+
+dt {
+    font-size: 110%;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+dd {
+    font-size: 80%;
+    font-style: italic;
+    color: #696661;
+    margin-bottom: .5rem;
+}
+
+
 /* Footer */
 footer {
     position: fixed;
