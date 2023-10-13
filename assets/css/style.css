@@ -321,7 +321,8 @@ footer {
 
 /* Media query: Tablets and larger (768px and bigger)*/
 @media screen and (min-width: 768px) {
-/* Make the text bigger */
+
+    /* Make the text bigger */
     body {
         font-size: 130%;
     }
@@ -389,28 +390,28 @@ footer {
         padding: 2rem;
     }
 
-        /* Styling the nutrition.html page */
-        /* Scaleing the vegan athletes names and pictures */
-        #vegan-athletes>h3 {
-            font-size: 120%;
-        }
-    
-        dt {
-            font-size: 135%;
-        }
-    
-        .veg-athlete {
-            height: 12rem;
-        }
-    
-        #plant-protein>h2 {
-            font-size: 120%;
-        }
+    /* Styling the nutrition.html page */
+    /* Scaleing the vegan athletes names and pictures */
+    #vegan-athletes>h3 {
+        font-size: 120%;
+    }
 
-                /* Movie section */
-                #movie>h2 {
-                    font-size: 130%;
-                }
+    dt {
+        font-size: 135%;
+    }
+
+    .veg-athlete {
+        height: 12rem;
+    }
+
+    #plant-protein>h2 {
+        font-size: 120%;
+    }
+
+    /* Movie section */
+    #movie>h2 {
+        font-size: 130%;
+    }
 
     /* Footer*/
     #social-media {
@@ -448,17 +449,43 @@ footer {
         columns: 2 250px;
     }
 
-        /* Making the header in #athletes article to ignore columns */
-        #athletes article>h2,
-        #gladiator {
-            column-span: all;
+    /* Making the header in #athletes article to ignore columns */
+    #athletes article>h2,
+    #gladiator {
+        column-span: all;
+    }
+
+    /* Making 1 column the plant-protein section*/
+    #plant-protein h3 {
+        position: relative;
+    }
+
+    #plant-protein p,
+    h3,
+    a {
+        column-span: all;
+    }
+
+
+    /* To push the chart under the button */
+    #bean-beef {
+        margin-top: 4rem;
+    }
+
+    /* Reposition the button */
+    #plant-protein a {
+        display: block;
+        position: absolute;
+        max-width: 15rem;
+        text-align: center;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+/* Hover effect */
+        #plant-protein a:hover {
+            background-color: #8b8881;
         }
-
-                /* Making 1 column the plant-protein section*/
-                #plant-protein h3 {
-                    position: relative;
-                }
-
     /* Footer */
     #social-media {
         padding-left: 70%;
