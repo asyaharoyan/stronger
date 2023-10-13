@@ -482,10 +482,17 @@ footer {
         left: 0;
         right: 0;
     }
-/* Hover effect */
-        #plant-protein a:hover {
-            background-color: #8b8881;
-        }
+
+    /* Hover effect */
+    #plant-protein a:hover {
+        background-color: #8b8881;
+    }
+
+    /* Making the iframe smaller */
+    #game-changers {
+        margin: 5rem;
+    }
+
     /* Footer */
     #social-media {
         padding-left: 70%;
