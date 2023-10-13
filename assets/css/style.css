@@ -448,6 +448,17 @@ footer {
         columns: 2 250px;
     }
 
+        /* Making the header in #athletes article to ignore columns */
+        #athletes article>h2,
+        #gladiator {
+            column-span: all;
+        }
+
+                /* Making 1 column the plant-protein section*/
+                #plant-protein h3 {
+                    position: relative;
+                }
+
     /* Footer */
     #social-media {
         padding-left: 70%;
