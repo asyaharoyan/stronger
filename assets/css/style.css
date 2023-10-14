@@ -609,6 +609,23 @@ footer {
         margin-bottom: .5rem;
     }
 
+    /*To have the join form on the right */
+    .text-input {
+        margin-right: 0;
+        width: 50%;
+        height: 3rem;
+        font-size: 110%
+    }
+
+    .join-reset-btn {
+        /* Make the button in the middle of the tex-input*/
+        margin: 1.5rem 65%;
+        font-size: large;
+        width: 20%;
+        height: 3rem;
+        cursor: pointer;
+    }
+
     /* Footer */
     #social-media {
         padding-left: 70%;
