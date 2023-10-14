@@ -478,6 +478,28 @@ footer {
         font-size: 180%;
     }
 
+    /* Make the label and btn smaller and center them */
+    .join-label {
+        display: block;
+        text-align: center;
+        margin-bottom: .5rem;
+    }
+
+    .text-input {
+        display: block;
+        margin: auto;
+        width: 70%;
+        height: 3rem;
+        font-size: 110%
+    }
+
+    .join-reset-btn {
+        margin: 1.5rem auto;
+        font-size: large;
+        width: 40%;
+        height: 3rem;
+    }
+
     /* Footer*/
     #social-media {
         padding-left: 55%;
