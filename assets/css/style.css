@@ -587,13 +587,25 @@ footer {
         display: block;
         position: absolute;
         left: 4%;
-        top: 18%;
+        top: 38%;
         width: 40%;
     }
 
     #join-reason p {
         font-size: 80%;
         text-align: center;
+    }
+
+    #join-form>h2 {
+        text-align: end;
+        margin: 1rem 15%;
+    }
+
+    .join-label {
+        display: block;
+        text-align: center;
+        margin-left: 10%;
+        margin-bottom: .5rem;
     }
 
     /* Push the form to the right */
