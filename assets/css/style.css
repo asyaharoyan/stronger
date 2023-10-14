@@ -344,6 +344,18 @@ em {
     border-radius: 6px;
 }
 
+#join-btn {
+    background-color: #1F1E1B;
+    color: #fafafa;
+    text-transform: uppercase;
+}
+
+#reset-btn {
+    background-color: #fafafa;
+    color: #1F1E1B;
+    text-transform: uppercase;
+}
+
 /* Footer */
 footer {
     position: fixed;
