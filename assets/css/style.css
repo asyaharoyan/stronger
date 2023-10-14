@@ -394,6 +394,7 @@ footer {
     /* Scaleing the vegan athletes names and pictures */
     #vegan-athletes>h3 {
         font-size: 120%;
+        margin: 2rem;
     }
 
     dt {
@@ -465,7 +466,6 @@ footer {
     a {
         column-span: all;
     }
-
 
     /* To push the chart under the button */
     #bean-beef {
