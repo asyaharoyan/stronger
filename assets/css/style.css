@@ -332,6 +332,18 @@ em {
     padding: 0 7px;
 }
 
+/* Style buttons */
+.join-reset-btn {
+    display: block;
+    margin: 1rem auto;
+    padding: .5rem;
+    font-size: large;
+    width: 70%;
+    height: 2.5rem;
+    border: 1px solid #696661;
+    border-radius: 6px;
+}
+
 /* Footer */
 footer {
     position: fixed;
