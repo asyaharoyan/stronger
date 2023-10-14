@@ -591,6 +591,24 @@ footer {
         width: 40%;
     }
 
+    #join-reason p {
+        font-size: 80%;
+        text-align: center;
+    }
+
+    /* Push the form to the right */
+    #join-form>h2 {
+        text-align: end;
+        margin: 1rem 15%;
+    }
+
+    .join-label {
+        display: block;
+        text-align: center;
+        margin-left: 10%;
+        margin-bottom: .5rem;
+    }
+
     /* Footer */
     #social-media {
         padding-left: 70%;
