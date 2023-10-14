@@ -472,6 +472,12 @@ footer {
         font-size: 130%;
     }
 
+    /* Styling the JOIN page */
+    /* Join form */
+    #join-form h2 {
+        font-size: 180%;
+    }
+
     /* Footer*/
     #social-media {
         padding-left: 55%;
