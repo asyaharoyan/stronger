@@ -553,6 +553,11 @@ footer {
         column-span: all;
     }
 
+    /* Make the diet info article in 1 column */
+    #diet-info article {
+        columns: 1;
+    }
+
     /* To push the chart under the button */
     #bean-beef {
         margin-top: 4rem;
@@ -581,14 +586,14 @@ footer {
 
     /* Styling the JOIN page */
     /* Join form */
-#join-reason {
-    font-size: 130%;
-    display: block;
-    position: absolute;
-    left: 4%;
-    top: 38%;
-    width: 40%;
-}
+    #join-reason {
+        font-size: 130%;
+        display: block;
+        position: absolute;
+        left: 4%;
+        top: 38%;
+        width: 40%;
+    }
 
     #join-reason p {
         font-size: 80%;
@@ -620,7 +625,6 @@ footer {
         margin-bottom: .5rem;
     }
 
-    /*To have the join form on the right */
     .text-input {
         margin-right: 0;
         width: 50%;
@@ -635,6 +639,18 @@ footer {
         width: 20%;
         height: 3rem;
         cursor: pointer;
+    }
+
+    /* Hover effect for buttons */
+    #join-btn:hover {
+        background-color: #84af00;
+        font-weight: 800;
+    }
+
+    #reset-btn:hover {
+        background-color: #a70303;
+        color: #fafafa;
+        font-weight: 800;
     }
 
     /* Footer */
