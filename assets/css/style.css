@@ -537,6 +537,10 @@ footer {
     }
 
     /* Making the header in #athletes article to ignore columns */
+    #intro article>h2 {
+        column-span: all;
+    }
+
     #athletes article>h2,
     #gladiator {
         column-span: all;
@@ -555,7 +559,14 @@ footer {
 
     /* Make the diet info article in 1 column */
     #diet-info article {
-        columns: 1;
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem;
+    }
+
+    .container {
+        flex: 1;
+        padding: 1.5rem;
     }
 
     /* To push the chart under the button */
