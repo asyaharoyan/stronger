@@ -546,6 +546,21 @@ footer {
         column-span: all;
     }
 
+    /* Dividing the athletes list in 2 columns with div container */
+    #vegan-athletes {
+        columns: 1;
+    }
+
+    .athlete-container {
+        flex: 1;
+        padding: 2rem;
+    }
+
+    #vegan-athletes dl {
+        display: flex;
+        justify-content: space-between;
+    }
+
     /* Making 1 column the plant-protein section*/
     #plant-protein h3 {
         position: relative;
