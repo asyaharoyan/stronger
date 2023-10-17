@@ -534,6 +534,7 @@ footer {
     /* Making the text in 2 columns to make the reading easier */
     .nutrition-info article {
         columns: 2 250px;
+        margin: 0 5rem;
     }
 
     /* Making the header in #athletes article to ignore columns */
@@ -546,7 +547,8 @@ footer {
         column-span: all;
     }
 
-    /* Dividing the athletes list in 2 columns with div container */
+    /* Dividing the athletes list in 2 columns with div container 
+    to keep the names with the pictures */
     #vegan-athletes {
         columns: 1;
     }
@@ -570,6 +572,11 @@ footer {
     h3,
     a {
         column-span: all;
+    }
+
+    #plant-protein article {
+        width: 70%;
+        margin-left: 15%;
     }
 
     /* Make the diet info article in 1 column */
