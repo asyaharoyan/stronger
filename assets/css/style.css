@@ -610,9 +610,19 @@ footer {
     }
 
     /* Making the iframe smaller */
-    #game-changers {
-        margin: 5rem;
+       #game-changers {
+        overflow: hidden;
+        height: 60%;
     }
+
+    iframe {
+        top: 3%;
+        left: 20%;
+        bottom: 0;
+        width: 60%;
+        height: 60%;
+    }
+
 
     /* Styling the JOIN page */
     /* Join form */
