@@ -479,18 +479,14 @@ footer {
     }
 
     /* Make the label and btn smaller and center them */
-    .join-label {
-        display: block;
-        text-align: center;
-        margin-bottom: .5rem;
-    }
-
     .text-input {
-        display: block;
-        margin: auto;
-        width: 70%;
         height: 3rem;
         font-size: 110%
+    }
+
+    #form-container {
+        width: 70%;
+        margin: auto;
     }
 
     .join-reset-btn {
@@ -620,59 +616,40 @@ footer {
 
     /* Styling the JOIN page */
     /* Join form */
+    #join {
+        display: flex;
+        flex: 1;
+
+    }
+
     #join-reason {
-        font-size: 130%;
-        display: block;
-        position: absolute;
-        left: 4%;
-        top: 38%;
+        width: 40%;
+        margin-top: 8%;
+        margin-left: 5%;
+    }
+
+    #form-container {
         width: 40%;
     }
 
-    #join-reason p {
-        font-size: 80%;
-        text-align: center;
-    }
-
-    #join-form>h2 {
-        text-align: end;
-        margin: 1rem 15%;
-    }
-
-    .join-label {
-        display: block;
-        text-align: center;
-        margin-left: 10%;
-        margin-bottom: .5rem;
-    }
-
-    /* Push the form to the right */
-    #join-form>h2 {
-        text-align: end;
-        margin: 1rem 15%;
-    }
-
-    .join-label {
-        display: block;
-        text-align: center;
-        margin-left: 10%;
-        margin-bottom: .5rem;
-    }
-
+    /* Adjusting font sizes for bigger screens*/
     .text-input {
-        margin-right: 0;
-        width: 50%;
         height: 3rem;
         font-size: 110%
     }
 
     .join-reset-btn {
-        /* Make the button in the middle of the tex-input*/
-        margin: 1.5rem 65%;
         font-size: large;
-        width: 20%;
         height: 3rem;
         cursor: pointer;
+    }
+
+    #join-reason {
+        font-size: 130%;
+    }
+
+    #join-reason p {
+        font-size: 80%;
     }
 
     /* Hover effect for buttons */
