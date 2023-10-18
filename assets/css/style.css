@@ -610,11 +610,13 @@ footer {
     }
 
     /* Making the iframe smaller */
-       #game-changers {
-        overflow: hidden;
-        height: 60%;
+    #game-changers {
+        transform: scale(.5);
+        /* Scale the container up by 150% */
+        transform-origin: top left;
     }
 
+    /*
     iframe {
         top: 3%;
         left: 20%;
@@ -622,7 +624,7 @@ footer {
         width: 60%;
         height: 60%;
     }
-
+*/
 
     /* Styling the JOIN page */
     /* Join form */
@@ -678,4 +680,8 @@ footer {
     #social-media {
         padding-left: 70%;
     }
+}
+
+#movie {
+    max-height: 450px;
 }
