@@ -92,6 +92,8 @@ Validating my nutrition.html on validator.w3.org, found that I need to add headi
 
 Validating my nutrition.html on validator.w3.org, found that I need to remove border="0" from iframe as HTML5 does not support it. Fixed.
 
+Validating my nutrition.html on validator.w3.org, found that div can not be a direct child of a dl list. Made the div as a parent. The error is fixed.
+
 Validating my nutrition.html on validator.w3.org, found that I forgot to remove one [ i ] tag from header on line 121. FIxed.
 
 ## Unfixed bugs
