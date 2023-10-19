@@ -109,7 +109,6 @@ nav {
 }
 
 /* Main content */
-
 main {
     /* Adding background image */
     background: url("../images/background.webp") top 13% left 80%/115%;
@@ -117,10 +116,7 @@ main {
     /* Make the background less active */
     background-blend-mode: darken;
     background-repeat: repeat-y;
-    /*min-height: 97rem; */
-    /* Make the element to take op the whole space*/
-    background-color: #cfbda9;
-    /* Make the element to take op the whole space*/
+    /* Make the element to take up the whole space*/
     flex: 1 0 auto;
     margin-top: 3.4rem;
 }
@@ -134,7 +130,6 @@ main {
 #hero-img {
     height: 20rem;
     width: 100%;
-    /*border-bottom: 1rem solid #fafafa;*/
     background: url("../images/hero.webp") no-repeat top 45% left -24%/cover;
     background-size: 200%;
 }
@@ -151,7 +146,7 @@ main {
     top: 60%;
 }
 
-/* Designing the intro section for home page and nutrition page */
+/* General styles for the sections of all pages */
 .nutrition-info {
     background-color: rgba(255, 255, 255, .8);
     border-radius: 3px;
@@ -200,7 +195,7 @@ main {
 }
 
 /* Styling the list of athletes*/
-/* Rewrite the size of h2 element, make it smaller */
+/* Rewrite the size of h elements, make it smaller */
 #veg-header h2 {
     font-size: 100%;
 }
@@ -212,6 +207,7 @@ main {
     margin: .5rem;
 }
 
+/* Styling the athletes pictures */
 .veg-athlete {
     height: 7rem;
     border-radius: 50%;
@@ -223,7 +219,6 @@ dt {
     font-size: 110%;
     font-weight: 500;
     text-align: center;
-
 }
 
 dd {
@@ -281,6 +276,7 @@ tr:nth-of-type(2n) {
 #game-changers {
     position: relative;
     overflow: hidden;
+    /* To make the iframe fit in the container */
     padding-top: 56.25%;
     margin-bottom: 2rem;
 }
@@ -449,7 +445,7 @@ footer {
     }
 
     /* Styling the nutrition.html page */
-    /* Scaleing the vegan athletes names and pictures */
+    /* Making the vegan athletes names and pictures bigger */
     #vegan-athletes>h3 {
         font-size: 120%;
         margin: 2rem;
@@ -559,7 +555,7 @@ footer {
         margin-left: 15%;
     }
 
-    /* Make the diet info article in 1 column */
+    /* Make the diet info article in 2 columns */
     #diet-info article {
         display: flex;
         justify-content: space-between;
