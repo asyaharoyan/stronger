@@ -630,6 +630,7 @@ footer {
     }
 
     #form-container {
+        margin-top: 2rem;
         width: 40%;
     }
 
@@ -637,6 +638,11 @@ footer {
     .text-input {
         height: 3rem;
         font-size: 110%
+    }
+
+    #btn-container {
+        display: flex;
+        margin-top: 3rem;
     }
 
     .join-reset-btn {
