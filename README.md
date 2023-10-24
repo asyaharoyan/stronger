@@ -16,7 +16,7 @@ The target is everyone, because who doesn't like to be healthy and full of energ
   ![Navigation bar](media/nav-bar.png)
 
 + The background image
-  + The background image shows spoons, full of nuts and most background colour is inspired by the colors of the nuts. There is a background colour behind the image in case it won't open in some browsers. Why nuts? Because most people think of vegetables and green colours when we talk about a plant-based diet. The idea behind it is to break the myth that vegan food includes only vegetables or that there is not enough protein in it. We want to show a great source of protein which is familiar to most of the people and slowly make them see the reality.
+  + The background image shows spoons, full of nuts and most background colour is inspired by the colors of the nuts. There is a background colour behind the image in case it won't open in some browsers. Why nuts? Because most people think of vegetables and green colours when we talk about a plant-based diet. The idea behind it is to break the myth that vegan food includes only vegetables or that there is not enough protein in it. We want to show a great source of protein which is familiar to most people and slowly make them see the reality.
 
   ![The background image](media/bg-image.jpg)
 
@@ -26,7 +26,7 @@ The target is everyone, because who doesn't like to be healthy and full of energ
 ![The hero image](media/hero-img.png)
 
 + The intro section
-  + In the intro section, the reader gets to know a bit about the history of the human diet which might rise some questions. If we did not eat meat then what did we eat? How did we survive? It's purpose is to slowly break the myth that humans are meat-eaters.
+  + In the intro section, the reader gets to know a bit about the history of the human diet which might raise some questions. If we did not eat meat then what did we eat? How did we survive? Its purpose is to slowly break the myth that humans are meat-eaters.
 
 ![Screenshot of the intro section](media/intro-section.png)
 
@@ -37,7 +37,7 @@ The target is everyone, because who doesn't like to be healthy and full of energ
 
 + The Nutrition page
 
-  This page had been divided in 4 main sections.
+  This page has been divided into 4 main sections.
 
 + The first section is about gladiators as we want the readers to get interested in the vegan diet without even noticing it. This is the reason why the page starts with a small picture of a gladiator (at least how people imagine them to be) and a big heading saying that the strongest fighters were vegetarians. The reader can skip reading the text and jump to the next section, but the idea will be stuck in the head as everyone has heard legends about gladiators.
 
@@ -65,7 +65,7 @@ The target is everyone, because who doesn't like to be healthy and full of energ
 
 ## Design and units
 
- As the reader comes to the first page there is no clear message that the page talks about vegan diet, except the small logo which had been created by me. The first impression is that there is some information on this webpage which will help me to get stronger. It has its purpose. The idea is to keep the visitor longer on the website and build trust.
+ As the reader comes to the first page, there is no direct message that the page talks about the vegan diet, except the small V logo, which had been created by me and added in the later stage of the project. The letter V is added because there is already a brand named STRONGER, and it means that the name is not available to use. The letter gives a hint about veganism, however, it does not stand out too much. The first impression is that there is some information on this webpage which will help the visitor to get stronger. It has its purpose. The idea is to keep the visitor longer on the website and build trust, even if they strongly believe in an animal-based diet. It is a better practice to show people proof and build trust slowly. Most people care more about their health and body, not about animals and the planet. This is another way to educate people and make them choose a meatless diet. Choose it for their health.
 
  The Nutrition page has been divided into 4 sections visually, to make the reading easier and to keep people interested as they see some small contrast while scrolling.
 
@@ -80,7 +80,7 @@ The target is everyone, because who doesn't like to be healthy and full of energ
 + The website works on Chrome, Firefox, Microsoft Edge and different mobile phones (tried at least 5 mobile phones)
 + The website is fully responsive
 + The form works as intended. The user can not join without a name or an email address
-+ Had been checked the performance in lighthouse
++ Had been checked the performance in the lighthouse
 
 ![Screenshot of the performance](media/light-house.png)
 
@@ -88,28 +88,28 @@ The target is everyone, because who doesn't like to be healthy and full of energ
 
 Validating my index.html on validator.w3.org, found that I need to add a header on the div line 71. Fixed.
 
-Validating my nutrition.html on validator.w3.org, found that I need to add headings to all articles. Fixed.
+Validating my nutrition.html on validator.w3.org, I found that I need to add headings to all articles. Fixed.
 
-Validating my nutrition.html on validator.w3.org, found that I need to remove border="0" from iframe as HTML5 does not support it. Fixed.
+Validating my nutrition.html on validator.w3.org, I found that I need to remove border="0" from the [ iframe ] as HTML5 does not support it. Fixed.
 
-Validating my nutrition.html on validator.w3.org, found that div can not be a direct child of a dl list. Made the div as a parent. The error is fixed.
+Validating my nutrition.html on validator.w3.org, I found that div can not be a direct child of a dl list. Made the div as a parent. The error is fixed.
 
-Validating my nutrition.html on validator.w3.org, found that I forgot to remove one [ i ] tag from header on line 121. FIxed.
+Validating my nutrition.html on validator.w3.org, I found that I forgot to remove one [ i ] tag from the header on line 121. Fixed.
 
 ## Unfixed bugs
 
-Imported fonts apperars to have problem.
+Imported fonts appear to have a problem.
 
-The message - do not load in parallel.
+The message - does not load in parallel.
 
-Not possible to fix as it is copied from Google Chrome.
+It is not possible to fix it as it is copied from Google Chrome.
 
 ## Deployment
 
-+ The site was deployed to GitHub pages. The steps to deploy are following:
-  + Open the Github repository and go to settings
++ The site was deployed to GitHub pages. The steps to deploy are the following:
+  + Open the GitHub repository and go to settings
   + From the source section select the Master Branch
-  + Click on save then it will show that the deployment had been successfull.
+  + Click on save then it will show that the deployment has been successful.
 
 The live link can be found here: [strongerV](https://asyaharoyan.github.io/stronger/index.html)
 
@@ -117,8 +117,8 @@ The live link can be found here: [strongerV](https://asyaharoyan.github.io/stron
 
 ### Content
 
-+ The quote on the landing page has taken from [Readbubble](https://www.redbubble.com/i/art-board-print/Being-fit-is-80-diet-and-20-exercise-by-thebaig/113324954.NVL2T)
-+ The text for the home page had bee taken from [Smithsonianmag.com](https://www.smithsonianmag.com/blogs/national-museum-of-natural-history/2021/12/09/meet-the-scientist-studying-how-humans-started-eating-meat/#:~:text=When%20and%20why%20did%20humans,the%20better%20parts%20of%20animals.)
++ The quote on the landing page has been taken from [Readbubble](https://www.redbubble.com/i/art-board-print/Being-fit-is-80-diet-and-20-exercise-by-thebaig/113324954.NVL2T)
++ The text for the home page had been taken from [Smithsonianmag.com](https://www.smithsonianmag.com/blogs/national-museum-of-natural-history/2021/12/09/meet-the-scientist-studying-how-humans-started-eating-meat/#:~:text=When%20and%20why%20did%20humans,the%20better%20parts%20of%20animals.)
 + The text about gladiators is taken from [Short-history.com](https://short-history.com/gladiator-vegetarian-diet-8dacefd7bc4a)
 + The list of the vegan athletes is taken from [Ranker.com](https://www.ranker.com/list/athletes-who-are-vegan/people-in-sports)and [Vegnews.com](https://vegnews.com/vegan-news/plant-vs-animal-protein-which-is-best)
 + The inspiration for the protein table of BEEF vs BEAN was taken from [Pinterest.com](https://www.pinterest.com/pin/195765915047202480/)
@@ -126,19 +126,19 @@ The live link can be found here: [strongerV](https://asyaharoyan.github.io/stron
 + The game changers iframe is taken from [Youtube.com/](https://www.youtube.com/)
 + The icons are from [Fontawesome.com](https://fontawesome.com/)
 
-### Coding instroctions
+### Coding instructions
 
-+ The heder is inspired from LOVE RUNNING project
-+ The used units mostly are em, rem and %. The instructios are taken from [Kevin Powell](https://www.youtube.com/watch?v=sifXs4XVK7g)
-+ The instroctions for making the page in 2 columns are taken from [Kevin Powell](https://www.youtube.com/watch?v=nJfrThH92WU)
++ The header is inspired by the LOVE RUNNING project
++ The used units mostly are em, rem and %. The instructions are taken from [Kevin Powell](https://www.youtube.com/watch?v=sifXs4XVK7g)
++ The instructions for making the page in 2 columns are taken from [Kevin Powell](https://www.youtube.com/watch?v=nJfrThH92WU)
 + The instructions for positioning iframe is taken from [blog.theodo.com](https://https://blog.theodo.com/2018/01/responsive-iframes-css-trick//2018/01/responsive-iframes-css-trick/)
-  + Instead of trying to get things right using dev tools the iframe had been designed using padding method. This approach ensures that the iframe maintains its aspect ratio and adjusts responsively to different screen sizes without explicitly setting its width or height.
-+ To make the background to repeat and blend the background color : [stackoverflow.com](https://stackoverflow.com/questions/18225388/background-image-not-repeating) and [Kevin Powell](https://www.youtube.com/watch?v=zHZRFwWQt2w&t=26s)
+  + Instead of trying to get things right using dev tools the iframe had been designed using the padding method. This approach ensures that the iframe maintains its aspect ratio and adjusts responsively to different screen sizes without explicitly setting its width or height.
++ To make the background to repeat and blend the background colour: [stackoverflow.com](https://stackoverflow.com/questions/18225388/background-image-not-repeating) and [Kevin Powell](https://www.youtube.com/watch?v=zHZRFwWQt2w&t=26s)
 
 ### Media
 
 + The logo-V is done by me using CorelDraw
 + The background picture is downloaded from [pixels.com](https://www.pexels.com/sv-se/sok/nuts/)
 + The hero picture is downloaded from [Unsplash.com](https://unsplash.com/photos/tM-AOYwCK_Y)
-+ The gladiators picture is downloaded from [Pixabay.com](https://pixabay.com/photos/fighter-soldier-gladiator-armor-5463541/)
++ The gladiator's picture is downloaded from [Pixabay.com](https://pixabay.com/photos/fighter-soldier-gladiator-armor-5463541/)
 + The pictures for the athletes are from [Google.com](https://www.google.com/search?q=pictures&sca_esv=573743071&tbm=isch&sxsrf=AM9HkKlSKBeC2-Vf8tcldnEbZlTgxmXRAA:1697451831599&source=lnms&sa=X&ved=2ahUKEwjHgcjrrPqBAxVyavEDHZ31DIwQ_AUoAXoECAIQAw&biw=1536&bih=707&dpr=1.25)
