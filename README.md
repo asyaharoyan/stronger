@@ -71,6 +71,7 @@ The target is everyone, because who doesn't like to be healthy and full of energ
 
  The units are mostly em, rem and % because it is the best way to make a webpage responsive. Because there are far too many screens, the best practice is to use relative units, which will prevent the webpage from looking crushed.
 
+
 ## Testing
 
 + All the links open in a new window and the work
@@ -132,6 +133,7 @@ The live link can be found here: [strongerV](https://asyaharoyan.github.io/stron
 + The used units mostly are em, rem and %. The instructios are taken from [Kevin Powell](https://www.youtube.com/watch?v=sifXs4XVK7g)
 + The instroctions for making the page in 2 columns are taken from [Kevin Powell](https://www.youtube.com/watch?v=nJfrThH92WU)
 + The instructions for positioning iframe is taken from [blog.theodo.com](https://https://blog.theodo.com/2018/01/responsive-iframes-css-trick//2018/01/responsive-iframes-css-trick/)
+  + Instead of trying to get things right using dev tools the iframe had been designed using padding method. This approach ensures that the iframe maintains its aspect ratio and adjusts responsively to different screen sizes without explicitly setting its width or height.
 + To make the background to repeat and blend the background color : [stackoverflow.com](https://stackoverflow.com/questions/18225388/background-image-not-repeating) and [Kevin Powell](https://www.youtube.com/watch?v=zHZRFwWQt2w&t=26s)
 
 ### Media
