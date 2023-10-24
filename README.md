@@ -11,7 +11,7 @@ The target is everyone, because who doesn't like to be healthy and full of energ
 
 + Navigation bar
   + The navigation bar is to help the user to jump from one page to the other. It is there to make the experience easy without needing to depend on the back button on the browser or the phone.
-  + The bar is fully responsive for mobile phones and bigger screens. The visitor can find a button on the right side of the screen of the phone which give a clear message that it is for the menu.
+  + The bar is fully responsive for mobile phones and bigger screens. The visitor can find a button on the right side of the screen of the phone which gives a clear message that it is for the menu.
 
   ![Navigation bar](media/nav-bar.png)
 
@@ -71,7 +71,6 @@ The target is everyone, because who doesn't like to be healthy and full of energ
 
  The units are mostly em, rem and % because it is the best way to make a webpage responsive. Because there are far too many screens, the best practice is to use relative units, which will prevent the webpage from looking crushed.
 
-
 ## Testing
 
 + All the links open in a new window and the work
@@ -103,7 +102,7 @@ Imported fonts apperars to have problem.
 
 The message - do not load in parallel.
 
-Not possible to fix as it is copied from google.
+Not possible to fix as it is copied from Google Chrome.
 
 ## Deployment
 
