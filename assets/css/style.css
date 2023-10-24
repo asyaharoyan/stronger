@@ -231,7 +231,7 @@ dd {
 /* Styling the movie buttom */
 #movie-buttom {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 #movie-buttom a {
@@ -256,6 +256,10 @@ caption {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
+}
+
+#bean-beef i {
+    margin: 2px;
 }
 
 th,
@@ -463,6 +467,11 @@ footer {
 
     #plant-protein>h2 {
         font-size: 120%;
+    }
+
+    /*Beef vs Bean */
+    #bean-beef i {
+        margin: 5px;
     }
 
     /* Movie section */
