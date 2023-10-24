@@ -355,14 +355,16 @@ em {
 /* Footer */
 footer {
     position: fixed;
-    height: 3rem;
+    height: 48px;
     width: 100%;
     bottom: 0;
     background-color: var(--background);
 }
 
 #social-media {
-    padding: .7rem 2rem;
+    height: 24px;
+    width: auto;
+    margin: 12px;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -656,6 +658,6 @@ footer {
 
     /* Footer */
     #social-media {
-        padding-left: 70%;
+        padding-left: 60%;
     }
 }
